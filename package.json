@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-cicd-app",
+  "version": "1.0.0",
+  "description": "Full stack application with React TypeScript frontend, Express TypeScript backend, and CI/CD pipelines",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:backend": "npm run build --prefix backend",
+    "build:all": "npm run build:frontend && npm run build:backend",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "express",
+    "nodejs",
+    "fullstack",
+    "cicd",
+    "shadcn",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC"
+}
