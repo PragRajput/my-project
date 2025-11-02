@@ -196,17 +196,22 @@ function App() {
             </h1>
             <Sparkles className="h-8 w-8 text-pink-500 animate-pulse" />
           </div>
-          <p className="text-xl text-slate-700 dark:text-slate-200 font-medium animate-slide-up mb-6">
+          <p className="text-xl text-slate-700 dark:text-slate-200 font-medium animate-slide-up mb-4">
             React TypeScript + Node.js Express TypeScript with CI/CD
           </p>
-          <div className="flex items-center justify-center gap-2 text-sm text-slate-600 dark:text-slate-300">
-            <div className="flex items-center gap-1">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-ping"></div>
-              <div className="w-2 h-2 bg-green-500 rounded-full absolute"></div>
-              <span className="ml-2 font-medium">Live</span>
+          <div className="flex flex-col items-center gap-3 mb-6">
+            <div className="flex items-center justify-center gap-2 text-sm text-slate-600 dark:text-slate-300">
+              <div className="flex items-center gap-1">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-ping"></div>
+                <div className="w-2 h-2 bg-green-500 rounded-full absolute"></div>
+                <span className="ml-2 font-medium">Live</span>
+              </div>
+              <span className="mx-2">•</span>
+              <span className="font-medium">{users.length} Users Online</span>
             </div>
-            <span className="mx-2">•</span>
-            <span className="font-medium">{users.length} Users Online</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-100 to-emerald-100 dark:from-green-950 dark:to-emerald-950 rounded-full border border-green-200 dark:border-green-800 shadow-sm">
+              <span className="text-green-700 dark:text-green-300 font-semibold text-sm">🚀 Auto-Deployed with GitHub Actions</span>
+            </div>
           </div>
         </div>
 
