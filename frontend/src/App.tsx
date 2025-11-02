@@ -191,7 +191,7 @@ function App() {
           <div className="flex items-center justify-center gap-2 mb-6">
             <Sparkles className="h-8 w-8 text-yellow-500 animate-pulse" />
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-gradient leading-tight py-2">
-              Full Stack Application
+              Full Stack Application with CI/CD
             </h1>
             <Sparkles className="h-8 w-8 text-pink-500 animate-pulse" />
           </div>
